@@ -1,0 +1,20 @@
+{
+  "name": "math-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dist:dev": "webpack --mode=development",
+    "dist:prod": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "Eric Masiello <eric.j.masiello@gmail.com> (http://synbydesign.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
