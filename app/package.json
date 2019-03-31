@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "install:cjs": "rm -rf node_modules/ && rm package-lock.json; npm i ../math-lib-cjs && npm i",
+    "install:es-bundle": "rm -rf node_modules/ && rm package-lock.json; npm i ../math-lib-es-bundle && npm i",
+    "install:es-shaking": "rm -rf node_modules/ && rm package-lock.json; npm i ../math-lib-es-shaking && npm i",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production",
     "prestart": "npm run build:prod",
