@@ -1,0 +1,26 @@
+{
+  "name": "math-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dist": "babel src --out-dir dist"
+  },
+  "keywords": [],
+  "author": "Eric Masiello <eric.j.masiello@gmail.com> (http://synbydesign.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.0"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.4.0",
+    "@babel/runtime": "^7.4.2"
+  }
+}
