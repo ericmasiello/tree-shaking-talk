@@ -31,4 +31,4 @@ Pairs.two = (a) => {
     return new Pairs(a, 2);;
 };
 
-module.exports = Pairs;
+export default Pairs;

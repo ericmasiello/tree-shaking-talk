@@ -21,4 +21,4 @@ class Pairs {
     }
 }
 
-module.exports = Pairs;
+export default Pairs;
